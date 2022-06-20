@@ -5,19 +5,9 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-const meta = {
-  title: "Some Meta Title",
-  description: "I am a description, and I can create multiple tags",
-  canonical: "http://example.com/path/to/page",
-  meta: {
-    charset: "utf-8",
-    name: {
-      keywords: "react,meta,document,html,tags",
-    },
-  },
-};
+
 root.render(
-  <React.StrictMode {...meta}>
+  <React.StrictMode>
     <App />
   </React.StrictMode>
 );
