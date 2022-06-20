@@ -17,8 +17,8 @@ const meta = {
   },
 };
 root.render(
-  <React.StrictMode>
-    <App {...meta} />
+  <React.StrictMode {...meta}>
+    <App />
   </React.StrictMode>
 );
 
